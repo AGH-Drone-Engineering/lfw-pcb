@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -227,18 +227,18 @@
 <smd name="39_7" x="-2.835" y="-4.075" dx="1.33" dy="1.33" layer="1"/>
 <smd name="39_8" x="-1" y="-4.075" dx="1.33" dy="1.33" layer="1"/>
 <smd name="39_9" x="0.835" y="-4.075" dx="1.33" dy="1.33" layer="1"/>
-<pad name="39_10" x="-1.9175" y="-0.405" drill="0.3" diameter="0.5"/>
-<pad name="39_11" x="-0.0825" y="-0.405" drill="0.3" diameter="0.5"/>
-<pad name="39_12" x="-2.835" y="-1.3225" drill="0.3" diameter="0.5"/>
-<pad name="39_13" x="-1" y="-1.3225" drill="0.3" diameter="0.5"/>
-<pad name="39_14" x="0.835" y="-1.3225" drill="0.3" diameter="0.5"/>
-<pad name="39_15" x="-1.9175" y="-2.24" drill="0.3" diameter="0.5"/>
-<pad name="39_16" x="-0.0825" y="-2.24" drill="0.3" diameter="0.5"/>
-<pad name="39_17" x="-2.835" y="-3.1575" drill="0.3" diameter="0.5"/>
-<pad name="39_18" x="-1" y="-3.1575" drill="0.3" diameter="0.5"/>
-<pad name="39_19" x="0.835" y="-3.1575" drill="0.3" diameter="0.5"/>
-<pad name="39_20" x="-1.9175" y="-4.075" drill="0.3" diameter="0.5"/>
-<pad name="39_21" x="-0.0825" y="-4.075" drill="0.3" diameter="0.5"/>
+<pad name="39_10" x="-1.9175" y="-0.405" drill="0.4" diameter="0.6"/>
+<pad name="39_11" x="-0.0825" y="-0.405" drill="0.4" diameter="0.6"/>
+<pad name="39_12" x="-2.835" y="-1.3225" drill="0.4" diameter="0.6"/>
+<pad name="39_13" x="-1" y="-1.3225" drill="0.4" diameter="0.6"/>
+<pad name="39_14" x="0.835" y="-1.3225" drill="0.4" diameter="0.6"/>
+<pad name="39_15" x="-1.9175" y="-2.24" drill="0.4" diameter="0.6"/>
+<pad name="39_16" x="-0.0825" y="-2.24" drill="0.4" diameter="0.6"/>
+<pad name="39_17" x="-2.835" y="-3.1575" drill="0.4" diameter="0.6"/>
+<pad name="39_18" x="-1" y="-3.1575" drill="0.4" diameter="0.6"/>
+<pad name="39_19" x="0.835" y="-3.1575" drill="0.4" diameter="0.6"/>
+<pad name="39_20" x="-1.9175" y="-4.075" drill="0.4" diameter="0.6"/>
+<pad name="39_21" x="-0.0825" y="-4.075" drill="0.4" diameter="0.6"/>
 </package>
 </packages>
 <symbols>
@@ -709,12 +709,12 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 <wire x1="4.5" y1="2.5" x2="-4.5" y2="2.5" width="0.05" layer="39"/>
 <circle x="-2.6" y="2.8" radius="0.1" width="0.2" layer="51"/>
 <circle x="-2.6" y="2.8" radius="0.1" width="0.2" layer="21"/>
-<pad name="1" x="-2.5" y="1.6" drill="0.8" shape="square"/>
-<pad name="2" x="0" y="1.6" drill="0.8"/>
-<pad name="3" x="2.5" y="1.6" drill="0.8"/>
-<pad name="4" x="-2.5" y="-1.6" drill="0.8"/>
-<pad name="5" x="0" y="-1.6" drill="0.8"/>
-<pad name="6" x="2.5" y="-1.6" drill="0.8"/>
+<pad name="1" x="-2.5" y="1.6" drill="1.016" diameter="1.651"/>
+<pad name="2" x="0" y="1.6" drill="1.016" diameter="1.651"/>
+<pad name="3" x="2.5" y="1.6" drill="1.016" diameter="1.651"/>
+<pad name="4" x="-2.5" y="-1.6" drill="1.016" diameter="1.651"/>
+<pad name="5" x="0" y="-1.6" drill="1.016" diameter="1.651"/>
+<pad name="6" x="2.5" y="-1.6" drill="1.016" diameter="1.651"/>
 </package>
 </packages>
 <symbols>
@@ -11297,22 +11297,22 @@ Source: AVX .. aphvc.pdf</description>
 <library name="TB6612FNG">
 <packages>
 <package name="TB6612FNG">
-<pad name="A0" x="-7.62" y="8.89" drill="0.6" shape="square"/>
-<pad name="A1" x="-7.62" y="6.35" drill="0.6" shape="square"/>
-<pad name="A2" x="-7.62" y="3.81" drill="0.6" shape="square"/>
-<pad name="A3" x="-7.62" y="1.27" drill="0.6" shape="square"/>
-<pad name="A4" x="-7.62" y="-1.27" drill="0.6" shape="square"/>
-<pad name="A5" x="-7.62" y="-3.81" drill="0.6" shape="square"/>
-<pad name="A6" x="-7.62" y="-6.35" drill="0.6" shape="square"/>
-<pad name="A7" x="-7.62" y="-8.89" drill="0.6" shape="square"/>
-<pad name="A8" x="7.62" y="-8.89" drill="0.6" shape="square"/>
-<pad name="A9" x="7.62" y="-6.35" drill="0.6" shape="square"/>
-<pad name="A10" x="7.62" y="-3.81" drill="0.6" shape="square"/>
-<pad name="A11" x="7.62" y="-1.27" drill="0.6" shape="square"/>
-<pad name="A12" x="7.62" y="1.27" drill="0.6" shape="square"/>
-<pad name="A13" x="7.62" y="3.81" drill="0.6" shape="square"/>
-<pad name="A14" x="7.62" y="6.35" drill="0.6" shape="square"/>
-<pad name="A15" x="7.62" y="8.89" drill="0.6" shape="square"/>
+<pad name="A0" x="-7.62" y="8.89" drill="1.016" shape="square"/>
+<pad name="A1" x="-7.62" y="6.35" drill="1.016" shape="square"/>
+<pad name="A2" x="-7.62" y="3.81" drill="1.016" shape="square"/>
+<pad name="A3" x="-7.62" y="1.27" drill="1.016" shape="square"/>
+<pad name="A4" x="-7.62" y="-1.27" drill="1.016" shape="square"/>
+<pad name="A5" x="-7.62" y="-3.81" drill="1.016" shape="square"/>
+<pad name="A6" x="-7.62" y="-6.35" drill="1.016" shape="square"/>
+<pad name="A7" x="-7.62" y="-8.89" drill="1.016" shape="square"/>
+<pad name="A8" x="7.62" y="-8.89" drill="1.016" shape="square"/>
+<pad name="A9" x="7.62" y="-6.35" drill="1.016" shape="square"/>
+<pad name="A10" x="7.62" y="-3.81" drill="1.016" shape="square"/>
+<pad name="A11" x="7.62" y="-1.27" drill="1.016" shape="square"/>
+<pad name="A12" x="7.62" y="1.27" drill="1.016" shape="square"/>
+<pad name="A13" x="7.62" y="3.81" drill="1.016" shape="square"/>
+<pad name="A14" x="7.62" y="6.35" drill="1.016" shape="square"/>
+<pad name="A15" x="7.62" y="8.89" drill="1.016" shape="square"/>
 <wire x1="-8.728" y1="9.998" x2="8.728" y2="9.998" width="0.127" layer="21"/>
 <wire x1="8.728" y1="9.998" x2="8.728" y2="-9.998" width="0.127" layer="21"/>
 <wire x1="8.728" y1="-9.998" x2="-8.728" y2="-9.998" width="0.127" layer="21"/>
@@ -11386,9 +11386,11 @@ DRIVER</text>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.3048" drill="0">
+<clearance class="0" value="0.254"/>
 </class>
-<class number="1" name="pwr" width="0.3556" drill="0">
+<class number="1" name="pwr" width="0.4572" drill="0">
+<clearance class="1" value="0.254"/>
 </class>
 </classes>
 <parts>
